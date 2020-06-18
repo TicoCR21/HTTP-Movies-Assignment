@@ -61,6 +61,13 @@ body {
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+
+.lower
+{
+  top : 80px;
+}
+
+
 .save-button:hover {
   background-color: green;
   color: white;
@@ -74,4 +81,14 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+input[ type="text" ]
+{
+  display: block;
+}
+
+textarea
+{
+  display: block;
 }
